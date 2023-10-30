@@ -1,0 +1,100 @@
+/* Write your CSS here */
+.main-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  font-family: Roboto;
+}
+
+.user-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  color: #475569;
+  background-size: cover;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+}
+
+.money-manager {
+  color: #0b69ff;
+  font-weight: 600;
+}
+
+.make-transactions-container {
+  display: flex;
+  justify-content: space-between;
+  font-family: Roboto;
+  margin-top: 25px;
+}
+
+.add-transaction {
+  border: 1px solid #7e858e;
+  box-sizing: border-box;
+  width: 30%;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+
+.add-transaction-title {
+  color: #334155;
+  font-size: 20px;
+}
+
+.label-title {
+  color: #7e858e;
+  font-size: 12px;
+  font-weight: 500;
+  margin-top: 8px;
+}
+
+.input-style {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  height: 28px;
+  width: 80%;
+  border: 1px solid #7e858e;
+  padding: 5px;
+  padding-left: 10px;
+  font-size: 11px;
+  font-weight: 600;
+  outline: none;
+}
+
+.add {
+  background-color: #0b69ff;
+  height: 30px;
+  width: 70px;
+  border-radius: 6px;
+  border: 0px;
+  color: #ffffff;
+  outline: none;
+  cursor: pointer;
+  margin-top: 12px;
+}
+
+.history-container {
+  border: 1px solid #7e858e;
+  box-sizing: border-box;
+  width: 65%;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+
+.table-container {
+  border: 1px solid #475569;
+}
+
+.table-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+}
+
+.header {
+  color: #475569;
+}

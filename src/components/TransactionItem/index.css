@@ -1,0 +1,27 @@
+/* Write your CSS here */
+
+.transaction-item {
+  border: 1px solid #475569;
+  list-style: none;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.entry-style {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+}
+
+.delete-icon {
+  height: 30px;
+}
+
+.delete-btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
